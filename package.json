@@ -1,0 +1,32 @@
+{
+  "name": "light-emitter",
+  "version": "1.0.0",
+  "description": "非常轻量的事件处理（event-pubsub）库",
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "types": "esm/index.d.ts",
+  "scripts": {
+    "build": "npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc -p .",
+    "build:cjs": "tsc -p . -m commonjs --outDir cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MysticalFE/light-emmiter.git"
+  },
+  "keywords": [
+    "light-emitter",
+    "emitter",
+    "event-bus"
+  ],
+  "author": "jiaxiangkai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MysticalFE/light-emmiter/issues"
+  },
+  "homepage": "https://github.com/MysticalFE/light-emmiter#readme",
+  "dependencies": {
+    "@types/node": "^14.14.22",
+    "typescript": "^4.1.3"
+  }
+}
