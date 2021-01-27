@@ -1,6 +1,6 @@
 {
   "name": "lightness-emitter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "非常轻量的事件处理（event-pubsub）库",
   "main": "cjs/index.js",
   "module": "esm/index.js",
