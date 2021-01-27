@@ -1,5 +1,5 @@
 {
-  "name": "light-emitter",
+  "name": "lightness-emitter",
   "version": "1.0.0",
   "description": "非常轻量的事件处理（event-pubsub）库",
   "main": "cjs/index.js",
@@ -7,14 +7,15 @@
   "types": "esm/index.d.ts",
   "scripts": {
     "build": "npm run build:esm && npm run build:cjs",
-    "build:esm": "tsc -p .",
-    "build:cjs": "tsc -p . -m commonjs --outDir cjs"
+    "build:esm": "rm -r ./esm && tsc -p .",
+    "build:cjs": "rm -r ./cjs && tsc -p . -m commonjs --outDir cjs"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MysticalFE/light-emmiter.git"
   },
   "keywords": [
+    "lightness-emitter",
     "light-emitter",
     "emitter",
     "event-bus"
