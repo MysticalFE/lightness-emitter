@@ -1,23 +1,23 @@
-# light-emitter
+# lightness-emitter  [![npm](https://img.shields.io/npm/v/lightness-emitter.svg)](https://www.npmjs.com/package/lightness-emitter)
 
 非常轻量的事件处理（event-pubsub）库
 
 ## 安装
 
 ```node
-npm install light-emitter
+npm install lightness-emitter
 ```
 
 ## 使用
 
 ```typescript
 // 使用es6导入
-import lightEmitter from 'light-emitter'
+import lightnessEmitter from 'lightness-emitter'
 
 // 使用commonjs导入
-const lightEmitter = require('light-emitter')
+const lightnessEmitter = require('lightness-emitter')
 
-const emitter = new lightEmitter()
+const emitter = new lightnessEmitter()
 
 // 监听事件
 emitter.on('demo', data => console.log(data) )
